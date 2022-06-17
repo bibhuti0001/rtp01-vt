@@ -3,14 +3,14 @@ def registry  = 'https://stalin.jfrog.io'
 def version   = '1.0.3'
 def app
 pipeline {
-	agent any
+    agent any
     //agent {
     //   node {
          //master node will see which slave node has particular label & run it
     //     label "valaxy"
     //  }
     //}
-    }
+
     stages {
         stage('Build') {
             steps {
