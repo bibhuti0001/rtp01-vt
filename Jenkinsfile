@@ -5,7 +5,8 @@ def app
 pipeline {
     agent {
        node {
-         label "valaxy"
+         //master node will see which slave node has particular label & run it
+         //label "valaxy"
       }
     }
     stages {
