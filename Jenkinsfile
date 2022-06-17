@@ -4,10 +4,10 @@ def version   = '1.0.3'
 def app
 pipeline {
     agent {
-       node {
+       //node {
          //master node will see which slave node has particular label & run it
          //label "valaxy"
-      }
+      //}
     }
     stages {
         stage('Build') {
