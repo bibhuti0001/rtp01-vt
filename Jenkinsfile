@@ -10,7 +10,6 @@ pipeline {
          label "development"
       }
     }
-
     stages {
         stage('Build') {
             steps {
