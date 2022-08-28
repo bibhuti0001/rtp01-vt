@@ -1,4 +1,4 @@
-def imageName = 'stalin.jfrog.io/default-docker-local/valaxy-rtp'
+def imageName = 'bibhuti0001.jfrog.io/default-maven-local-generic-local/valaxy-rtp'
 def registry  = 'https://bibhuti0001.jfrog.io'
 def version   = '1.0.3'
 def app
